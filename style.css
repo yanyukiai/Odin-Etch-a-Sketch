@@ -1,9 +1,18 @@
 .header,
-.sketch,
+#sketch,
 .sketchGrids,
 .gridRow,
-.grid {
+.grid,
+.newSketch {
   display: flex;
+}
+
+.header,
+.newSketch,
+#sketch {
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .sketchGrids {
@@ -22,4 +31,8 @@
   flex-basis: auto;
   flex-grow: 1;
   border: 1px solid lightgray;
+}
+
+.newSketch {
+  margin-bottom: 20px;
 }
