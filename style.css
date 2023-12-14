@@ -1,7 +1,25 @@
-.header {
+.header,
+.sketch,
+.sketchGrids,
+.gridRow,
+.grid {
   display: flex;
 }
 
-.header {
-  justify-content: center;
+.sketchGrids {
+  width: 480px;
+  height: 480px;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.gridRow {
+  flex-grow: 1;
+  justify-content: space-evenly;
+}
+
+.grid {
+  flex-basis: auto;
+  flex-grow: 1;
+  border: 1px solid lightgray;
 }
